@@ -20,7 +20,11 @@ class Student{
 	private int id;
 	private String fname;
 	private double cgpa;
+<<<<<<< HEAD
 	protected Student(int id, String fname, double cgpa) {
+=======
+	public Student(int id, String fname, double cgpa) {
+>>>>>>> origin/master
 		super();
 		this.id = id;
 		this.fname = fname;
@@ -36,8 +40,11 @@ class Student{
 		return cgpa;
 	}
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 /*
 Parameters:
 s1 - the first object to be compared.
