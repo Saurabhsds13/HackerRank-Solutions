@@ -13,6 +13,7 @@ class ConvertTime {
     String[] parts = s.split(":");
     String period = parts[2].substring(parts[2].length() - 2);
     String timePart = parts[2].substring(0, parts[2].length() - 2);
+   
 
     int hours = Integer.parseInt(parts[0]);
     int minutes = Integer.parseInt(parts[1]);
@@ -32,7 +33,7 @@ public class Time_Conversion {
   public static void main(String[] args) throws IOException {
     //        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
     //        String s = bufferedReader.readLine();
-    String s = "07:05:45PM";
+    String s = "01:00:00PM";
     String result = ConvertTime.timeConversion(s);
     System.out.println(result);
     //        bufferedReader.close();
